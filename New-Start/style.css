@@ -3,11 +3,8 @@ body {
   font-weight: 500;
 }
 
-#demo .textbox {
-  width: 600px;
-}
-#demo .textbox p {
-  font-size: 15px;
+#demo .box {
+  position: relative;
 }
 #demo .box .minibox {
   width: 120px;
@@ -17,8 +14,8 @@ body {
   padding: 15px;
   margin: 10px;
 }
-#demo .box .mini1 {
-  position: fixed;
-  top: 120px;
-  right: 5px;
+#demo .box .mini3 {
+  position: absolute;
+  bottom: 5px;
+  left: 250px;
 }/*# sourceMappingURL=style.css.map */
