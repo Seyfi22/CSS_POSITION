@@ -34,12 +34,31 @@ body section {
 }
 #demo2 .box .imgbox {
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 10px;
 }
 #demo2 .box p {
   position: absolute;
   font-size: 50px;
   z-index: 1;
+}
+
+#demo3 {
+  margin: 80px 0;
+}
+#demo3 .box {
+  position: relative;
+}
+#demo3 .box .minibox {
+  padding: 10px;
+  border: 3px solid #fd0606;
+  width: 120px;
+  height: 120px;
+}
+#demo3 .box .mini2 {
+  position: fixed;
+  position: sticky;
+  right: 20px;
+  top: 120px;
 }/*# sourceMappingURL=style.css.map */
