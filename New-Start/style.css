@@ -2,6 +2,15 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+body section {
+  padding: 80px 0;
+}
 
 #demo .box {
   position: relative;
@@ -18,4 +27,19 @@ body {
   position: absolute;
   bottom: 5px;
   left: 250px;
+}
+
+#demo2 .box {
+  position: relative;
+}
+#demo2 .box .imgbox {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+#demo2 .box p {
+  position: absolute;
+  font-size: 50px;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
